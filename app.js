@@ -15,6 +15,6 @@ var UIController = (function() {
   //Some code
 })();
 
-var controller = (function() {
+var controller = (function(budgetCtrl, UICtrl) {
   //some code
-})();
+})(budgetController, UIController);
